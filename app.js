@@ -1,5 +1,7 @@
 const inputEl = document.getElementById("input-btn");
+
 const fetchBtn = document.getElementById("fetch");
+
 const pokemondata = document.getElementsByClassName("main");
 
 fetchBtn.addEventListener("click", () => {
