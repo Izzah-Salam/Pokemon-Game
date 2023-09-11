@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="style.css" />
+		<title>Pokemon Game</title>
+	</head>
+	<body class="flex">
+		<div class="container flex">
+			<div class="input">
+				<input type="text" id="input-btn" placeholder="Which Pokemon" />
+				<input type="button" value="Fetch" id="fetch" />
+			</div>
+
+			<p>
+				out of ideas ? Try <span>Pikachu</span>,<span> Charizerd</span> or
+				<span>NineTales</span>
+			</p>
+			<div class="main">
+				<h1 class="heading">No Pokemon yet! <span id="name">xxx</span></h1>
+				<div class="img">Please submit a pokemon</div>
+				<div class="headings">
+					<div>Ability</div>
+					<div>Type</div>
+					<div>Move</div>
+				</div>
+				<div class="value">
+					<div id="ability">-</div>
+					<div id="type">-</div>
+					<div id="move">-</div>
+				</div>
+			</div>
+		</div>
+		<script src="app.js"></script>
+	</body>
+</html>
