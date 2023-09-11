@@ -3,16 +3,20 @@
 	padding: 0;
 	box-sizing: border-box;
 }
+
 body {
 	background-color: #1a1a1e;
 	color: rgba(245, 245, 245, 0.669);
+	display: flex;
 }
 
 .flex {
 	display: flex;
 }
+
 .container {
 	margin: 20px;
+	flex: 1;
 }
 
 .input {
